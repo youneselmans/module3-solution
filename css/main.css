@@ -1,0 +1,23 @@
+body {
+    background: #D7FFF1;
+    height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .navbar-brand {
+    font-size: 30px;
+}
+.container h1 {
+    font-weight: bold;
+    margin: 30px;
+}
+.container .ffd {
+    background-color: #8CD790;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.container .ffd h3 {
+    font-weight: bold;
+}
+nav div hr {
+    color: #8CD790;
+}
