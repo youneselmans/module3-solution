@@ -1,23 +1,38 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: #D7FFF1;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     height: 1000px;
-    font-family: Arial, Helvetica, sans-serif;
 }
+..navbar>.container-fluid{
+    border-radius: 0px;
+    padding-bottom: 0;
+  }
 nav .navbar-brand {
     font-size: 30px;
+}
+.nav-clr:hover {
+    background-color: #77AF9C;
 }
 .container h1 {
     font-weight: bold;
     margin: 30px;
+    color: #285943;
 }
-.container .ffd {
+.container .row .ffd {
     background-color: #8CD790;
-    margin-bottom: 40px;
+    margin: 20px;
     padding: 20px;
+    border: 1px solid #000;
 }
-.container .ffd h3 {
+.container .row .ffd h3 {
     font-weight: bold;
 }
 nav div hr {
-    color: #8CD790;
+    color: #77AF9C;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
